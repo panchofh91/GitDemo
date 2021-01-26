@@ -13,6 +13,8 @@ public class hackerrank {
          */
         hackerrank.fizzbuzz(3);
 
+        hackerrank.fizzbuzz2(3);
+
     }
          public static void fizzbuzz(int n){
                 for (int x = 0; x < 1; x++){
