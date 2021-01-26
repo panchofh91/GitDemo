@@ -28,6 +28,20 @@ public class hackerrank {
                 }
             }
 
+    public static void fizzbuzz2(int n){
+        for (int x = 0; x < 1; x++){
+            if ((n % 3 == 0) && (n % 5 == 0)){
+                System.out.println("FizzBuzz");
+            } else if(n % 3 == 0){
+                System.out.println("Fizz");
+            } else if(n % 5 == 0){
+                System.out.println("Buzz");
+            } else {
+                System.out.println(n);
+            }
+        }
+    }
+
         }
 
 
